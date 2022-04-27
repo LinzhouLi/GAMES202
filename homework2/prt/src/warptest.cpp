@@ -409,9 +409,9 @@ class WarpTestScreen : public Screen {
 public:
 
     WarpTestScreen(): Screen(Vector2i(800, 600), "warptest: Sampling and Warping"), m_bRec(nori::Vector3f()) {
+        m_drawHistogram = false;
         inc_ref();
         initializeGUI();
-        m_drawHistogram = false;
     }
 
     static float mapParameter(WarpType warpType, float parameterValue) {

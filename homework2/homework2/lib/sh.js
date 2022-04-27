@@ -21,7 +21,7 @@ function SHEval3(fX, fY, fZ) {
    var fC0,fC1,fS0,fS1,fTmpA,fTmpB,fTmpC;
    var fZ2 = fZ*fZ;
    var pSH = new Array(9);
-
+   
    pSH[0] = 0.2820947917738781;
    pSH[2] = 0.4886025119029199*fZ;
    pSH[6] = 0.9461746957575601*fZ2 + -0.3153915652525201;
